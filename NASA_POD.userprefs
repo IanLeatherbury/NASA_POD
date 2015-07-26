@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="NASA_PODWatchKitExtension/NASA_PODWatchKitExtension.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Ian's iPhone" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="NASA_POD/FirstViewController.cs" Line="236" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="NASA_POD/AppDelegate.cs" line="83" offsetX="481" offsetY="1230" expression="date" liveUpdate="False" />
+    <Watch file="NASA_POD/AppDelegate.cs" line="83" offsetX="482" offsetY="1259" expression="time" liveUpdate="False" />
+    <Watch file="NASA_POD/AppDelegate.cs" line="104" offsetX="668" offsetY="1545" expression="notification" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
