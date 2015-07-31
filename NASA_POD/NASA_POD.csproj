@@ -36,7 +36,9 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>7ce04d00-98b6-4e5a-b9ec-344e4b7f5893</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -60,7 +62,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <IpaPackageName>
     </IpaPackageName>
@@ -96,7 +98,6 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
-    <None Include="sample.m4v" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -124,10 +125,23 @@
     <BundleResource Include="Resources\cog_30x30.png" />
     <BundleResource Include="Resources\rocket_30x30.png" />
     <BundleResource Include="Resources\rocket_128x128.png" />
+    <BundleResource Include="Resources\rocket_slider.png" />
+    <BundleResource Include="Resources\satelite-2.png" />
+    <BundleResource Include="Resources\rocket_35.png" />
+    <BundleResource Include="Resources\rocket_40.png" />
+    <BundleResource Include="Resources\rocket_51.png" />
+    <BundleResource Include="Resources\rocket_40%402x.png" />
+    <BundleResource Include="Resources\rocket_40%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Images.xcassets\" />
     <Folder Include="Resources\Images.xcassets\AppIcons.appiconset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="mbprogresshud">
+      <Version>0.9.0.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -141,11 +155,5 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="mbprogresshud">
-      <Version>0.9.0.2</Version>
-      <Visible>False</Visible>
-    </XamarinComponentReference>
   </ItemGroup>
 </Project>

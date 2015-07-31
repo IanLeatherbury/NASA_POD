@@ -27,14 +27,14 @@ namespace NASA_POD
 			UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
 		}
 
-//		public override void HandleAction (UIApplication application, string actionIdentifier, UILocalNotification localNotification, Action completionHandler)
-//		{
-//			// show an alert
-//			new UIAlertView(localNotification.AlertAction, "?" + localNotification.AlertBody, null, "OK", null).Show();
-//
-//			// reset our badge
-//			UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
-//		}
+		public override void HandleAction (UIApplication application, string actionIdentifier, UILocalNotification localNotification, Action completionHandler)
+		{
+			// show an alert
+			new UIAlertView(localNotification.AlertAction, "?" + localNotification.AlertBody, null, "OK", null).Show();
+
+			// reset our badge
+			UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
+		}
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
@@ -67,42 +67,6 @@ namespace NASA_POD
 					}
 				}
 			}
-
-//			// create notification for every day at 9 AM
-//			var notification = new UILocalNotification();
-//			notification.RepeatInterval = NSCalendarUnit.Day;
-//
-//			//set time
-//			var time = new NSDateComponents();
-//			time.Hour = 09;
-//			time.Minute = 00;
-//			time.Second = 0;
-//
-//			//choose calendar
-//			var calendar = new NSCalendar (NSCalendarType.Gregorian);
-//
-//			//create fire date
-//			var date = calendar.DateFromComponents (time);
-//
-//			// set the fire date (the date time in which it will fire)
-//			notification.FireDate = date;
-//			notification.TimeZone = NSTimeZone.DefaultTimeZone;
-//
-//			// configure the alert stuff
-//			notification.AlertTitle = "The APOD is ready!";
-//			notification.AlertAction = "Alert Action";
-//			notification.AlertBody = "Alert Body";
-//
-//			notification.UserInfo = NSDictionary.FromObjectAndKey (new NSString("UserInfo for notification"), new NSString("Notification"));
-//
-//			// modify the badge - has no effect on the Watch
-//			notification.ApplicationIconBadgeNumber = 1;
-//
-//			// set the sound to be the default sound
-//			notification.SoundName = UILocalNotification.DefaultSoundName;
-//
-//			// schedule it
-//			UIApplication.SharedApplication.ScheduleLocalNotification(notification);
 
 			return true;
 		}

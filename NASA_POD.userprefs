@@ -1,12 +1,26 @@
 ﻿<Properties StartupItem="NASA_PODWatchKitExtension/NASA_PODWatchKitExtension.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Ian's iPhone" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Ian's iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NASA_PODWatchKitApp/Info.plist">
     <Files>
-      <File FileName="NASA_POD/FirstViewController.cs" Line="236" Column="29" />
+      <File FileName="NASA_POD/FirstViewController.cs" Line="1" Column="1" />
+      <File FileName="NASA_PODWatchKitExtension/InterfaceController.cs" Line="1" Column="1" />
+      <File FileName="NASA_POD/SecondViewController.cs" Line="1" Column="1" />
+      <File FileName="NASA_POD/Resources/Images.xcassets/AppIcons.appiconset/Contents.json" />
+      <File FileName="NASA_POD.UITests/Tests.cs" Line="1" Column="1" />
+      <File FileName="NASA_POD/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="NASA_POD/Info.plist" />
+      <File FileName="NASA_POD/Entitlements.plist" />
+      <File FileName="NASA_PODWatchKitApp/Info.plist" />
+      <File FileName="NASA_PODWatchKitExtension/Info.plist" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.3.2/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+      <File FileName="NASA_PODWatchKitExtension/NotificationController.cs" Line="1" Column="1" />
+      <File FileName="NASA_PODWatchKitExtension/ApodClass.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ianl/Projects/NASA_POD/NASA_POD/AppDelegate.cs" line="61" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="NASA_POD/AppDelegate.cs" line="83" offsetX="481" offsetY="1230" expression="date" liveUpdate="False" />

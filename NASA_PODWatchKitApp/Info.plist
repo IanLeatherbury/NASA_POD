@@ -5,11 +5,9 @@
 	<key>CFBundleDisplayName</key>
 	<string>NASA_PODWatchKitApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.apod.watchkitapp</string>
+	<string>com.apod.watchkitapp</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
@@ -20,10 +18,12 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.companyname.apod</string>
+	<string>com.apod</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.01</string>
 </dict>
 </plist>

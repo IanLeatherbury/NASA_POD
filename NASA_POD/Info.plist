@@ -4,12 +4,8 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>APOD</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.companyname.apod</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.01</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -43,5 +39,9 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apod</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
 </dict>
 </plist>
