@@ -42,7 +42,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-sV-N3Z">
                                 <rect key="frame" x="276" y="468" width="51" height="31"/>
                             </switch>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="satelite-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="169">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="satellite_256.png" translatesAutoresizingMaskIntoConstraints="NO" id="169">
                                 <rect key="frame" x="200" y="169" width="199" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="199" id="LU9-Iw-2tW"/>
@@ -154,6 +154,6 @@
     <resources>
         <image name="cog_30x30.png" width="30" height="30"/>
         <image name="rocket_30x30.png" width="30" height="30"/>
-        <image name="satelite-2.png" width="512" height="512"/>
+        <image name="satellite_256.png" width="263" height="268"/>
     </resources>
 </document>

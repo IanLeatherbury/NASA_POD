@@ -68,4 +68,7 @@ Global
 		{7D1C12AC-7AD2-40ED-ACEE-9C493D249FC5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{7D1C12AC-7AD2-40ED-ACEE-9C493D249FC5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.02
+	EndGlobalSection
 EndGlobal

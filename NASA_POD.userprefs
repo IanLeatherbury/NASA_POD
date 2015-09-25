@@ -1,30 +1,23 @@
-﻿<Properties StartupItem="NASA_PODWatchKitExtension/NASA_PODWatchKitExtension.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Ian's iPhone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NASA_PODWatchKitApp/Info.plist">
+﻿<Properties StartupItem="NASA_POD/NASA_POD.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NASA_PODWatchKitExtension/InterfaceController.cs">
     <Files>
-      <File FileName="NASA_POD/FirstViewController.cs" Line="1" Column="1" />
-      <File FileName="NASA_PODWatchKitExtension/InterfaceController.cs" Line="1" Column="1" />
-      <File FileName="NASA_POD/SecondViewController.cs" Line="1" Column="1" />
-      <File FileName="NASA_POD/Resources/Images.xcassets/AppIcons.appiconset/Contents.json" />
-      <File FileName="NASA_POD.UITests/Tests.cs" Line="1" Column="1" />
-      <File FileName="NASA_POD/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="NASA_POD/Info.plist" />
-      <File FileName="NASA_POD/Entitlements.plist" />
+      <File FileName="NASA_PODWatchKitExtension/InterfaceController.cs" Line="4" Column="18" />
       <File FileName="NASA_PODWatchKitApp/Info.plist" />
       <File FileName="NASA_PODWatchKitExtension/Info.plist" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.3.2/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
-      <File FileName="NASA_PODWatchKitExtension/NotificationController.cs" Line="1" Column="1" />
-      <File FileName="NASA_PODWatchKitExtension/ApodClass.cs" Line="1" Column="1" />
+      <File FileName="NASA_POD/Info.plist" />
+      <File FileName="NASA_POD/FirstViewController.cs" Line="16" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ianl/Projects/NASA_POD/NASA_POD/AppDelegate.cs" line="61" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="NASA_POD/AppDelegate.cs" line="83" offsetX="481" offsetY="1230" expression="date" liveUpdate="False" />
     <Watch file="NASA_POD/AppDelegate.cs" line="83" offsetX="482" offsetY="1259" expression="time" liveUpdate="False" />
     <Watch file="NASA_POD/AppDelegate.cs" line="104" offsetX="668" offsetY="1545" expression="notification" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.NASA__POD>
+    <ProfileHeapShotSettings_27CDebug Output="/var/folders/7q/kgfhnmc508z1f455mn9c0chr0000gn/T/profiler-output.mlpd" Zip="True" HeapshotMode="ms" HeapshotGCInterval="1" HeapshotTimeInterval="10000" Calls="False" Alloc="False" CallDepth="100" StatisticalSampling="False" SampingFrequency="1000" MaxFrames="8" Mode="Memory" />
+  </MonoDevelop.Ide.ItemProperties.NASA__POD>
 </Properties>
